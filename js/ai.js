@@ -1,10 +1,9 @@
 var bool = true;
+var bestScore = 20;
+var bestMove = 0;
 
 function AI_getBest(grid, debug) {
-
-  var bestScore = 20;
-  var bestMove = 0;
-
+  
   if (bool) {
     bool = false;
     bestMove = 1;

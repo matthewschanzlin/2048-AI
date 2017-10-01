@@ -81,17 +81,63 @@ function getFutureGrid(move, grid) {
       if (grid.cells[i][j]) {
         tempGrid[i][j] = grid.cells[i][j].value;
       }
+      else {
+        tempGrid[i][j] = 0;
+      }
     }
   }
-  var moveGrid = move(tempGrid, move);
+  var moveGrid = moveGrid(tempGrid, move);
   return moveGrid;
 }
 
 function moveGrid(gridAsArr, move) {
   switch (move) {
     case 0:
-    
-      break;
+      // up
+      return moveUp(gridAsArr);
+    case 1:
+      // right
+      return moveRight(gridAsArr);
+    case 2:
+      // down
+      return moveDown(gridAsArr);
+    case 3:
+      // left
+      return moveLeft(gridAsArr);
+    default:
+      alert("BAD");
+  }
+}
+
+function moveUp(gridAsArr) {
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
+      //if (gridAsArr[i][j])
+    }
+  }
+}
+
+function moveRight(gridAsArr) {
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
+
+    }
+  }
+}
+
+function moveDown(gridAsArr) {
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
+      
+    }
+  }
+}
+
+function moveLeft(gridAsArr) {
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
+      
+    }
   }
 }
 

@@ -110,35 +110,19 @@ function moveGrid(gridAsArr, move) {
 }
 
 function moveUp(gridAsArr) {
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-      //if (gridAsArr[i][j])
-    }
-  }
+  //move up
 }
 
 function moveRight(gridAsArr) {
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-
-    }
-  }
+  //move right
 }
 
 function moveDown(gridAsArr) {
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-      
-    }
-  }
+  //move down
 }
 
 function moveLeft(gridAsArr) {
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-      
-    }
-  }
+  //move left
 }
 
 function getMoves(grid) {
